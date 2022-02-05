@@ -41,3 +41,11 @@ for i in range(len(a)):  # <리스트 안 수 만큼 반복하는 for문>
     removed = a.pop()  # <(지운 인덱스값) 설정>
     result = num * (removed)  # < 결과=인풋값*(지운 인덱스값)>
     print(f"{num} X {removed} = {result}")  # <안내 : "인풋값" X "지운 인덱스 값" = "결과">
+
+
+print()
+print()
+print()
+
+
+###후기 : 근데 pop() 이럴때 쓰는 거 맞긴 함? 몰랑 ~ ^^
